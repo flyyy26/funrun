@@ -17,5 +17,23 @@
             <a href="#"><button>See Event</button></a>
         </div>
     </div>
+    <div class="bg_green"></div>
+    <div class="section_2">
+        <div class="section_2_content">
+            <h1>Open Registration</h1>
+            <div class="section_2_layout">
+                <div class="section_2_box">
+                    <h3>Early Bird</h3>
+                    <button>IDR 350,000 net/pax</button>
+                    <a href="#">Buy Now</a>
+                </div>
+                <div class="section_2_box">
+                    <h3>Regular</h3>
+                    <button>IDR 350,000 net/pax</button>
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
