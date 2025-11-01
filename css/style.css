@@ -8,6 +8,10 @@
     font-family: milker;
     src: url(../font/Milker.otf);
 }
+body{
+    width: 100%;
+    background-color: #242424;
+}
 .banner{
     width: 100%;
     height: 48.4vw;
@@ -75,4 +79,36 @@
     background-color: transparent;
     color: #C8D736;
     border: .12vw solid #C8D736;
+}
+
+.bg_green{
+    background-image: url(../images/bg_green.png);
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    height: 21.2vw;
+    z-index: 1;
+    position: relative;
+}
+.section_2{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/section_2_bg.png);
+    padding-top: 7vw;
+    margin-top: -6vw;
+    position: relative;
+}
+.section_2_content{
+    margin-top: -19.5vw;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    text-align: center;
+}
+.section_2_content h1{
+    font-family: milker;
+    font-weight: 400;
+    font-size: 4.8vw;
+    color: #173324;
 }
