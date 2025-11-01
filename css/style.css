@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: milker;
+    src: url(../font/Milker.otf);
+}
+.banner{
+    width: 100%;
+    height: 48.4vw;
+    background-image: url(../images/bg_banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.vasaka_hotel{
+    position: absolute;
+    left: 9.7vw;
+    top: 49%;
+    transform: translateY(-50%);
+    width: 29.4vw;
+    z-index: 2;
+}
+.logo_banner{
+    position: absolute;
+    right: 11.8vw;
+    z-index: 1;
+    top: 44%;
+    transform: translateY(-50%);
+    width: 52vw;
+}
+.tali_banner_kiri{
+    position: absolute;
+    left: 0;
+    top: 49%;
+    transform: translateY(-50%);
+    width: 29.9vw;
+}
+.tali_banner_kanan{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18vw;
+}
+.button_banner{
+    position: absolute;
+    left: 62%;
+    transform: translateX(-50%);
+    bottom: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 1.4vw;
+}
+.button_banner button{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding: .59vw 1.6vw;
+    font-size: 1.05vw;
+    width: 12.4vw;
+    border-radius: .4vw;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button_banner a:nth-child(1) button{
+    background-color: #C8D736;
+    outline: none;
+    border: .12vw solid transparent;
+    color: #173324;
+}
+.button_banner a:nth-child(2) button{
+    background-color: transparent;
+    color: #C8D736;
+    border: .12vw solid #C8D736;
+}
