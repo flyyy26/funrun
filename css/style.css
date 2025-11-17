@@ -11,6 +11,7 @@
 body{
     width: 100%;
     background-color: #242424;
+    overflow-x: hidden;
 }
 .banner{
     width: 100%;
@@ -26,11 +27,11 @@ body{
     top: 49%;
     transform: translateY(-50%);
     width: 29.4vw;
-    z-index: 2;
+    z-index: 5;
 }
 .logo_banner{
     position: absolute;
-    right: 11.8vw;
+    right: 10.5vw;
     z-index: 1;
     top: 44%;
     transform: translateY(-50%);
@@ -42,19 +43,52 @@ body{
     top: 49%;
     transform: translateY(-50%);
     width: 29.9vw;
+    z-index: 3;
 }
 .tali_banner_kanan{
     position: absolute;
-    right: 0;
+    right: -1vw;
     top: 50%;
     transform: translateY(-50%);
     width: 18vw;
 }
+.medal_kiri{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16.2vw;
+    z-index: 4;
+}
+.medal_kanan{
+    position: absolute;
+    right: 0;
+    top: 6vw;
+    z-index: 4;
+    width: 13.5vw;
+}
+.date{
+    position: absolute;
+    right: 2.6vw;
+    top: 2.4vw;
+    background-image: url(../images/date.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'montserrat', sans-serif;
+    padding: 1vw 1.7vw;
+    padding-bottom: 1.2vw;
+}
+.date p{
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #173324;
+}
 .button_banner{
     position: absolute;
-    left: 62%;
+    left: 62.8%;
     transform: translateX(-50%);
-    bottom: 5vw;
+    bottom: 5.11vw;
     display: flex;
     align-items: center;
     gap: 1.4vw;
@@ -109,6 +143,15 @@ body{
 .section_2_content h1{
     font-family: milker;
     font-weight: 400;
-    font-size: 4.8vw;
+    font-size: 5vw;
     color: #173324;
+    margin-bottom: 2.5vw;
+}
+.section_2_box{
+    background-image: url(../images/bg_tiket.png);
+    background-position: center;
+    background-size: cover;
+    width: 58%;
+    display: block;
+    margin: auto;
 }
